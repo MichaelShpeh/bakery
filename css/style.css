@@ -27,7 +27,8 @@
     display: flex;
     justify-content: space-between;
     /* margin-left: 156px; */
-
+    width: 558px;
+    margin-left: 156px;
 }
 
 .header-link {
@@ -169,6 +170,18 @@
 
 /*? footer */
 
+.why-list {
+    display: flex;
+}
+
+.why-list-item {
+    margin-right: 285px;
+}
+
+.why-list-item:nth-child(3) {
+    margin-right: 0px;
+}
+
 .why-title {
     font-family: var(--second-family);
     font-weight: 400;
@@ -181,6 +194,11 @@
     font-weight: 700;
     font-size: 24px;
     /* color: #fff; */
+}
+
+.where-list {
+    display: flex;
+    flex-direction: column;
 }
 
 .where-title {
@@ -209,6 +227,11 @@
     font-weight: 300;
     font-size: 24px;
     /* color: #fff; */
+}
+
+.when-list {
+    display: flex;
+    flex-direction: column;
 }
 
 .when-list-item-text {
