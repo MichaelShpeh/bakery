@@ -8,11 +8,20 @@
     --second-family: "italiana"
 }
 
-
+.main-conteiner {
+    width: 1440px;
+    margin: 0 auto;
+    outline: blue 1px solid;
+}
 
 .conteiner {
     width: 1154px;
     margin: 0 auto;
+    outline: tomato 1px dashed;
+}
+
+.header-hero {
+    background-image: url(../images/photo_2022.jpg);
 }
 
 /*? header  */
@@ -20,7 +29,6 @@
 .header {
     padding-bottom: 36px;
     padding-top: 55px;
-    background-image: url(../images/photo_2022.jpg);
 }
 
 .header-list {
@@ -107,6 +115,10 @@
     border: none;
 }
 
+.menu {
+    background-color: var(--menu-color);
+}
+
 .orders-list {
     display: flex;
     flex-wrap: wrap;
@@ -170,8 +182,13 @@
 
 /*? footer */
 
+.idk {
+    background-image: url(../images/photo_background.jpg);
+}
+
 .why-list {
     display: flex;
+    justify-content: space-between;
 }
 
 .why-list-item {
@@ -187,13 +204,20 @@
     font-weight: 400;
     font-size: 48px;
     color: #d9d9d9;
+    margin-bottom: 120px;
 }
 
 .description {
     font-family: var(--font-family);
     font-weight: 700;
     font-size: 24px;
-    /* color: #fff; */
+    color: #fff;
+}
+
+.where {
+    background: var(--menu-color);
+    display: flex;
+    flex-wrap: wrap;
 }
 
 .where-list {
@@ -205,28 +229,28 @@
     font-family: var(--second-family);
     font-weight: 400;
     font-size: 48px;
-    /* color: #fff; */
+    color: #fff;
 }
 
 .where-list-item-title {
     font-family: var(--font-family);
     font-weight: 400;
     font-size: 40px;
-    /* color: #fff; */
+    color: #fff;
 }
 
 .where-list-item-text {
     font-family: var(--font-family);
     font-weight: 300;
     font-size: 24px;
-    /* color: #fff; */
+    color: #fff;
 }
 
 .where-list-item-phone {
     font-family: var(--font-family);
     font-weight: 300;
     font-size: 24px;
-    /* color: #fff; */
+    color: #fff;
 }
 
 .when-list {
@@ -239,21 +263,26 @@
     font-weight: 200;
     font-size: 24px;
     text-align: center;
-    /* color: #fff; */
+    color: #fff;
+}
+
+.bakery {
+    background: var(--menu-color);
+    display: flex;
 }
 
 .bakery-title {
     font-family: var(--font-family);
     font-weight: 200;
     font-size: 40px;
-    /* color: #fff; */
+    color: #fff;
 }
 
 .bakery-text {
     font-family: var(--font-family);
     font-weight: 300;
     font-size: 20px;
-    /* color: #fff; */
+    color: #fff;
 }
 
 .bakery-list-item-title {
@@ -261,14 +290,14 @@
     font-weight: 300;
     font-size: 24px;
     text-align: center;
-    /* color: #fff; */
+    color: #fff;
 }
 
 .bakery-list-item-text {
     font-family: var(--font-family);
     font-weight: 300;
     font-size: 24px;
-    /* color: #fff; */
+    color: #fff;
 }
 
 .support-list-item-title {
@@ -276,14 +305,14 @@
     font-weight: 300;
     font-size: 24px;
     text-align: center;
-    /* color: #fff; */
+    color: #fff;
 }
 
 .support-list-item-text {
     font-family: var(--font-family);
     font-weight: 300;
     font-size: 24px;
-    /* color: #fff; */
+    color: #fff;
 }
 
 .company-list-item-title {
@@ -291,19 +320,19 @@
     font-weight: 300;
     font-size: 24px;
     text-align: center;
-    /* color: #fff; */
+    color: #fff;
 }
 
 .company-list-item-text {
     font-family: var(--font-family);
     font-weight: 300;
     font-size: 24px;
-    /* color: #fff; */
+    color: #fff;
 }
 
 .coppy_right {
     font-family: var(--font-family);
     font-weight: 100;
     font-size: 20px;
-    /* color: #fff; */
+    color: #fff;
 }
