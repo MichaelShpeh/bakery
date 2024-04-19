@@ -76,6 +76,7 @@
     border: none;
     display: block;
     padding: 16px 34px 7px 34px;
+    margin-bottom: 125p;
 }
 
 .hero-img-title {
@@ -206,6 +207,16 @@
 
 .quality {
     padding-top: 90px;
+    width: 1440px;
+    height: 853px;
+    background-image:
+        url(../images/Group\ 24\ \(1\).png),
+        url(../images/Group\ 25.png),
+        url(../images/Group\ 24\ \(2\).png),
+        url(../images/Rectangle\ 26.png);
+    background-repeat: no-repeat;
+    background-position: left, right, center;
+    background-size: auto, auto, auto, cover;
 }
 
 .quality-title {
@@ -248,15 +259,15 @@
 }
 
 .quality-number-secondlist {
-    padding-top: 32px;
+    padding: 32px 4px 50px 10px;
     padding-bottom: 50px;
     /* background-color: grey; */
     background-image: url(../images/Rectangle\ 5.png);
-    background-size: fill;
+    background-size: cover;
 }
 
 .quality-number-thirdlist {
-    padding-top: 14px;
+    padding: 14px 20px 51px 20px;
     padding-bottom: 51px;
     /* background-color: grey; */
     background-image: url(../images/Rectangle\ 5.png);
