@@ -281,7 +281,8 @@
             #000 0%,
             #000 10%,
             #0303031e 100%),
-        url(../images/background-why.png);
+        url(../images/background-why.png),
+        url(../images/gradient.png);
     padding-top: 55px;
     padding-bottom: 51px;
 }
