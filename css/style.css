@@ -138,7 +138,7 @@
 
 .hero-list-item {
     background: var(--backgroundblack-color);
-    /* background: linear-gradient(66deg, #000 0%, #000 100%); */
+    background: linear-gradient(66deg, #000 0%, #000 100%);
     width: 310px;
 }
 
