@@ -131,6 +131,7 @@
 .card {
     display: flex;
     align-items: center;
+    background: linear-gradient(65deg, rgba(0, 0, 0, 0.5) 0%, rgb(39, 39, 39, 0) 70%);
 }
 
 .card-text-box {
