@@ -132,15 +132,15 @@
     flex-grow: 1;
 }
 
-/* .hero-img-title:nth-of-type(1) {
+/* .hero-img-title:first-child {
     margin-left: 36px;
 }
 
-.hero-img-title-text:nth-of-type(1) {
+.hero-img-title-text:first-child {
     margin-left: 18px;
 }
 
-.hero-list-item-button:nth-of-type(1) {
+.hero-list-item-button:first-child {
     margin-left: 49px;
 }
 
@@ -269,11 +269,10 @@
     background-image:
         url(../images/Group\ 24\ \(1\).png),
         url(../images/Group\ 25.png),
-        url(../images/Group\ 24\ \(2\).png),
-        url(../images/Rectangle\ 26.png);
+        url(../images/Group\ 24\ \(2\).png);
     background-repeat: no-repeat;
-    background-position: left, right, center;
-    background-size: auto, auto, auto, cover;
+    background-position: left 0px top 210px, left 783px top 211px, left 179px top 210px;
+    background-size: auto, auto, auto;
 }
 
 .quality-title {
