@@ -246,6 +246,11 @@
 }
 
 .orders-list-button {
+    width: 160px;
+    height: 41px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
     font-family: var(--font-family);
     font-weight: 800;
     font-size: 25px;
