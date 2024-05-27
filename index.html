@@ -45,7 +45,15 @@
                             but
                             also the leap into
                             electronic typesetting, remaining essentially unchanged.</p>
-                        <button class="hero-title-text-button">SHOP NOW</button>
+                        <button class="hero-title-text-button" type="button" data-modal-open>SHOP NOW</button>
+                        <div class="backdrop is-hidden" data-modal>
+                            <div class="modal">
+                                <button class="btn" data-modal-close>Закрити</button>
+                                <br />
+                                <br />
+                                <p class="modal-text">Тут буде ФОРМА:</p>
+                            </div>
+                        </div>
                         <ul class="hero-list">
                             <li class="hero-list-item">
                                 <article class="card">
@@ -266,6 +274,7 @@
             </div>
     </div>
     </footer>
+    <script src="./js/modal.js"></script>
 </body>
 
 </html>
